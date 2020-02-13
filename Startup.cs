@@ -44,8 +44,8 @@ namespace SignalRChat2
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
-            app.UseRouting();
+             
+            app.UseRouting(); //new comment
 
             app.UseAuthorization();
 
